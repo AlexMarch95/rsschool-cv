@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    border: 1px solid red;
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0; padding: 0;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }

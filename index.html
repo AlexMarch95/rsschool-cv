@@ -5,25 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/favicon.ico">
 </head>
 
 <body>
     <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"> <a href="#contacts" class="nav-link">Contacts</a> </li>
-                <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"> <a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"> <a href="#code" class="nav-link">Code</a></li>
-                <li class="nav-item"> <a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"> <a href="#English" class="nav-link">English</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> <a href="#contacts" class="nav-link">Contacts</a> </li>
+                    <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"> <a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"> <a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"> <a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"> <a href="#English" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
-        <div class="main-profil">
+        <div class="container">
             <section class="img-profil" id="profil">
                 <img src="./assets/Me.jpg" alt="my face" class="section-profil-logo">
                 <div class="section-profil-title">
@@ -31,50 +35,52 @@
                     <h3 class="my-status">Begginer JS developer</h3>
                 </div>
             </section>
-        </div>
-        <section class="setion-contacts" id="contacts">
-            <h2 class="section-title">Contacts</h2>
-            <ul class="section-list">
-                <li> Mogilev, Belarus</li>
-                <li class="my-email">
-                    Email:<a href="mailto:BIGbenFAQ@mail.ru" title="Email">BIGbenFAQ@mail.ru</a>
-                </li>
-                <li class="github">
-                    Github:<a href="https://github.com/AlexMarch95" title="Git">AlexMarch95</a>
-                </li>
-                <li class="Telegram">
-                    Telegram:<a href="https://t.me/AlexMarch95" title="Telegram">@AlexMarch95</a>
-                </li>
-                <li class="Discord">
-                    Discord:<a href="https://discordapp.com/users/630380431669329927/ " title="discord">AlexMr#3737</a>
-                </li>
-            </ul>
-        </section>
-        <section class="summary" id="summary">
-            <h2 class="section-title">Summary</h2>
-            <p>
-                I want to learning programming and stand developer, because i living in poor country (this is my dream).
-                Im really trying ,and I'm doing a littl. Im working in the medical field - it's really interesting, but
-                i feel it's not for me. Let's end this.
-            </p>
-        </section>
-        <section class="skills" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <ul>
-                <li class="section-item">
-                    Web-development: <span> HTML5, CSS, JS(soon)</span>
-                </li>
-                <li class="section-item">
-                    Version control: <span>Git, Github</span>
-                </li>
-                <li class="section-item">
-                    Graphics: <span>Figma</span>
-                </li>
-            </ul>
-        </section>
-        <section class="code" id="code">
-            <h2 class="section-title">Code</h2>
-            <p><code>
+            <section class="setion-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li> Mogilev, Belarus</li>
+                    <li class="my-email">
+                        Email:<a href="mailto:BIGbenFAQ@mail.ru" title="Email">BIGbenFAQ@mail.ru</a>
+                    </li>
+                    <li class="github">
+                        Github:<a href="https://github.com/AlexMarch95" title="Git">AlexMarch95</a>
+                    </li>
+                    <li class="Telegram">
+                        Telegram:<a href="https://t.me/AlexMarch95" title="Telegram">@AlexMarch95</a>
+                    </li>
+                    <li class="Discord">
+                        Discord:<a href="https://discordapp.com/users/630380431669329927/ "
+                            title="discord">AlexMr#3737</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="summary" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    I want to learning programming and stand developer, because i living in poor country (this is my
+                    dream).
+                    Im really trying ,and I'm doing a littl. Im working in the medical field - it's really interesting,
+                    but
+                    i feel it's not for me. Let's end this.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li class="section-item">
+                        Web-development: <span> HTML5, CSS, JS(soon)</span>
+                    </li>
+                    <li class="section-item">
+                        Version control: <span>Git, Github</span>
+                    </li>
+                    <li class="section-item">
+                        Graphics: <span>Figma</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="section-title">Code</h2>
+                <p><code>
                 function checkParent (src, dest) {<Br>
                  while (src != null) {<Br>
                    if (src.tagName == dest) return src<Br>
@@ -84,24 +90,25 @@
                 }
                 <h4>This is the first code example I found on the Internet that I copied </h4>
             </code></p>
-        </section>
-        <section class="experience" id="experience">
-            <h2 class="section-title">Experience</h2>
-            <p>I don't have no experience in application development and coding</p>
-        </section>
-        <section class="Education" id="education">
-            <h2 class="section-title">Education</h2>
-            <p> I have a secondary specialized education in the refrigeration industry</p>
-        </section>
-        <section class="English" id="English">
-            <h2 class="section-title">English</h2>
-            <p>B1: Intermediate</p>
-        </section>
+            </section>
+            <section class="experience" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <p>I don't have no experience in application development and coding</p>
+            </section>
+            <section class="Education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p> I have a secondary specialized education in the refrigeration industry</p>
+            </section>
+            <section class="English" id="English">
+                <h2 class="section-title">English</h2>
+                <p>B1: Intermediate</p>
+            </section>
+        </div>
     </main>
     <footer class="footer">
-        <div class="footer-container"></div>
-        <div>© 2022 <a href="https://github.com/AlexMarch95" class="github nav-link">AlexMarch95</a></div>
-        <a href="https://rs.school/js/" class="rss"></a>
+        <div class="container">
+            <div>© 2022 <a href="https://github.com/AlexMarch95" class="github nav-link">AlexMarch95</a></div>
+            <a href="https://rs.school/js/" class="rss"></a>
         </div>
     </footer>
 </body>
