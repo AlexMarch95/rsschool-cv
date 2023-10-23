@@ -7,7 +7,6 @@ html {
   }
   
   .header {
-    border: 1px solid red;
   }
 
   body {
@@ -21,7 +20,16 @@ html {
   }
 
   .nav-list {
+    font-style: oblique;
+    list-style:none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    line-height: 50px;
+    padding:0 15px;
+    color: orange;
   }
