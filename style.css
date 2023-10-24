@@ -48,3 +48,7 @@ html {
     font-style: italic;
     color: coral;
   }
+  .section-profil-logo {
+    height: 300px;
+    border-radius: 50%;
+  }
