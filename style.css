@@ -5,15 +5,15 @@ html {
   * {
     box-sizing: border-box;
   }
-  
-  .header {
-    background-color: #829985
-  }
 
   body {
     min-height: 100vh;
     margin: 0; padding: 0;
-    background-color: blanchedalmond;
+    background-color: #829985;
+  }
+  
+  .header {
+    background: #829985;
   }
 
   footer {
