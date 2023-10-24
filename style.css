@@ -7,21 +7,21 @@ html {
   }
   
   .header {
-    border: 1px solid red
+    background-color: #829985
   }
 
   body {
-    border: 1px solid red
     min-height: 100vh;
     margin: 0; padding: 0;
+    background-color: blanchedalmond;
   }
 
   footer {
-    border: 1px solid red
+    background-color: #829985
   }
   
   main {
-    border: 1px solid red
+    background-color: blanchedalmond;
   }
 
   .container {
