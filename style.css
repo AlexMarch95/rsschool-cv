@@ -49,6 +49,9 @@ html {
     color: coral;
   }
   .section-profil-logo {
-    height: 300px;
-    border-radius: 50%;
+    position: absolute;
+    right: 150px;
+    height: 200px;
+    border-radius: 300px;
+    margin: 0 auto;
   }
