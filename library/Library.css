@@ -1,13 +1,18 @@
-.header {
-    display: inline-flex;
-    justify-content: space-between;
-    background: black;
-    width: 1440px;
-    height: 90px;
-    margin: 0 auto;
+html {
+    scroll-behavior: smooth;
 }
 
-.header-left {
+body {
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.left {
     color: #FFF;
     font-family: Forum;
     font-size: 30px;
@@ -15,34 +20,30 @@
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0.6px;
-    box-sizing: border-box;
     margin: 20px 20px 20px;
 }
 
-.header-right {
-    display: flex;
+.right {
+    display: inline-flex;
     align-items: center;
 }
 
 .nav-list {
-    display: inline-flex;
+    display: flex;
     gap: 30px;
-    padding-right: 10px;
-    color: #FFF;
+}
 
+.icon {
+    color: white;
+    margin: 31px 20px 31px 40px;
+}
+
+a {
+    color: #FFFFFF;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
-}
-
-.icon {
-    color: white;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    text-decoration: none;
 }
