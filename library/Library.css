@@ -6,21 +6,16 @@ body {
     margin: 0;
 }
 
+.header {
+    min-width: 1440px;
+    height: 90px;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
     background: black;
-}
-
-.left {
-    color: #FFF;
-    font-family: Forum;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 50px;
-    letter-spacing: 0.6px;
-    margin: 20px 20px 20px;
+    flex-wrap: wrap;
 }
 
 .right {
@@ -31,6 +26,8 @@ body {
 .nav-list {
     display: flex;
     gap: 30px;
+    margin: 20px auto 20px;
+    padding: 0;
 }
 
 .icon {
@@ -39,11 +36,30 @@ body {
 }
 
 a {
-    color: #FFFFFF;
+    color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
     text-decoration: none;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    width: 294px;
+    height: 50px;
+    margin: 20px 454px 20px 20px;
+}
+
+.welcome {
+    background: url(https://s3-alpha-sig.figma.com/img/c1ad/470e/85c1859f825ed82614b2036bc8be037f?Expires=1699833600&Signature=T-IGxvXEP~jhdEKD3-4UDRNCWlqqSlV4wk~u78~OlvukEs1UEQPnOQjl0gn2GNK9pI6CazvkDRn7~AuxDHEjVZ6FvF3aZzjcHfayraI7YCfiSmASIQ3OEkgMKN2LAmfRSVkwoQ3FV62L99dtNwg8yly9YT7qnEicqBhccC~~VaiIx9UE2U8awy69y6BglvhEbxglEbsQNKpNK8IgZ8gEx1Z4k~~dyz3grK8UFqrhT7AGjUfrPCl7CQWrdKlfzNnFMidlN57eiAmbZzL1Hh3csCmqdk-yPRcDEn822DVZxYBN6xaQO0znU2ifI~IOgfX7J1gTosL5RMO~ZSYXaF-3yw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 50% / cover no-repeat;
+    min-width: 1440px;
+    height: 600px;
 }
