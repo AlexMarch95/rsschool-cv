@@ -60,14 +60,17 @@ h1 {
 
 .welcome {
     display: flex;
-    background: url(https://s3-alpha-sig.figma.com/img/c1ad/470e/85c1859f825ed82614b2036bc8be037f?Expires=1699833600&Signature=T-IGxvXEP~jhdEKD3-4UDRNCWlqqSlV4wk~u78~OlvukEs1UEQPnOQjl0gn2GNK9pI6CazvkDRn7~AuxDHEjVZ6FvF3aZzjcHfayraI7YCfiSmASIQ3OEkgMKN2LAmfRSVkwoQ3FV62L99dtNwg8yly9YT7qnEicqBhccC~~VaiIx9UE2U8awy69y6BglvhEbxglEbsQNKpNK8IgZ8gEx1Z4k~~dyz3grK8UFqrhT7AGjUfrPCl7CQWrdKlfzNnFMidlN57eiAmbZzL1Hh3csCmqdk-yPRcDEn822DVZxYBN6xaQO0znU2ifI~IOgfX7J1gTosL5RMO~ZSYXaF-3yw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 50% / cover no-repeat;
+    background: url(https://s3-alpha-sig.figma.com/img/c1ad/470e/85c1859f825ed82614b2036bc8be037f?Expires=1699833600&Signature=T-IGxvXEP~jhdEKD3-4UDRNCWlqqSlV4wk~u78~OlvukEs1UEQPnOQjl0gn2GNK9pI6CazvkDRn7~AuxDHEjVZ6FvF3aZzjcHfayraI7YCfiSmASIQ3OEkgMKN2LAmfRSVkwoQ3FV62L99dtNwg8yly9YT7qnEicqBhccC~~VaiIx9UE2U8awy69y6BglvhEbxglEbsQNKpNK8IgZ8gEx1Z4k~~dyz3grK8UFqrhT7AGjUfrPCl7CQWrdKlfzNnFMidlN57eiAmbZzL1Hh3csCmqdk-yPRcDEn822DVZxYBN6xaQO0znU2ifI~IOgfX7J1gTosL5RMO~ZSYXaF-3yw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 50% / cover no-repeat ;
+    background-position: 50% 50%;
     min-width: 1440px;
     height: 600px;
     align-items: center;
 }
 
-.p-welcome {
+.pp-welcome {
     color: #FFF;
+    width: 520px;
+    flex-shrink: 0;
     text-align: center;
     font-family: Forum;
     font-size: 40px;
@@ -76,13 +79,15 @@ h1 {
     line-height: 50px;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+.p-welcome {
+    display: flex;
     width: 520px;
     height: 150px;
-    flex-shrink: 0;
-    margin: 220px 840px 160px 0;
     padding: 35px 40px;
-}
-.t-welcome {
-    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
-    /* need to work */
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #0C0C0E;
+    margin: 220px 840px 160px 0px;
 }
