@@ -60,8 +60,7 @@ h1 {
 
 .welcome {
     display: flex;
-    background: url(https://s3-alpha-sig.figma.com/img/c1ad/470e/85c1859f825ed82614b2036bc8be037f?Expires=1699833600&Signature=T-IGxvXEP~jhdEKD3-4UDRNCWlqqSlV4wk~u78~OlvukEs1UEQPnOQjl0gn2GNK9pI6CazvkDRn7~AuxDHEjVZ6FvF3aZzjcHfayraI7YCfiSmASIQ3OEkgMKN2LAmfRSVkwoQ3FV62L99dtNwg8yly9YT7qnEicqBhccC~~VaiIx9UE2U8awy69y6BglvhEbxglEbsQNKpNK8IgZ8gEx1Z4k~~dyz3grK8UFqrhT7AGjUfrPCl7CQWrdKlfzNnFMidlN57eiAmbZzL1Hh3csCmqdk-yPRcDEn822DVZxYBN6xaQO0znU2ifI~IOgfX7J1gTosL5RMO~ZSYXaF-3yw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 50% / cover no-repeat ;
-    background-position: 50% 50%;
+    background: url(./assets/Welcome.jpg), lightgray 50% / cover no-repeat ;
     min-width: 1440px;
     height: 600px;
     align-items: center;
@@ -80,6 +79,7 @@ h1 {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
 .p-welcome {
     display: flex;
     width: 520px;
@@ -90,4 +90,74 @@ h1 {
     flex-shrink: 0;
     background: #0C0C0E;
     margin: 220px 840px 160px 0px;
+}
+
+.mein-about {
+    min-width: 1440px;
+    height: 837px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #FFF;
+}
+
+hr {
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+}
+
+.a1 {
+    width: 106px;
+    height: 40px;
+    margin: 20px;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.b1 {
+    color: #000;
+    width: 1440px;
+    height: 40px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.images1-about {
+    width: 450px;
+    height: 560px;
+    flex-shrink: 0;
+    background: url(./assets/image\ 1.png), lightgray 50% / cover no-repeat;
+    margin: 20px 10px 40px 20px;
+}
+
+.images2-about {
+    width: 450px;
+    height: 560px;
+    flex-shrink: 0;
+    background: url(./assets/image\ 2.png), lightgray 50% / cover no-repeat;
+    margin: 20px 15px 40px;
+}
+
+.images3-about {
+    width: 450px;
+    height: 560px;
+    flex-shrink: 0;
+    background: url(./assets/image\ 3.png), lightgray 50% / cover no-repeat;
+    margin: 20px 20px 40px 10px;
+}
+.img-about {
+    display: flex;
 }
