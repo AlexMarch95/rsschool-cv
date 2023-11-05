@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    min-width: 1440px;
+    width: 1440px;
     height: 90px;
 }
 
@@ -15,19 +15,25 @@ body {
     display: flex;
     justify-content: space-between;
     background: black;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .right {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .nav-list {
-    display: flex;
-    gap: 30px;
-    margin: 20px auto 20px;
+    margin: 0;
+    list-style-type: none;
+    width: 584px;
+    height: 50px;
+    display: inline-flex;
     padding: 0;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .icon {
@@ -60,8 +66,8 @@ h1 {
 
 .welcome {
     display: flex;
-    background: url(./assets/Welcome.jpg), lightgray 50% / cover no-repeat ;
-    min-width: 1440px;
+    background: url(./assets/Welcome.jpg), lightgray 50% / cover no-repeat;
+    width: 1440px;
     height: 600px;
     align-items: center;
 }
@@ -93,7 +99,7 @@ h1 {
 }
 
 .mein-about {
-    min-width: 1440px;
+    width: 1440px;
     height: 837px;
     display: flex;
     flex-direction: column;
@@ -109,10 +115,7 @@ hr {
     background: #0C0C0E;
 }
 
-.a1 {
-    width: 106px;
-    height: 40px;
-    margin: 20px;
+h2 {
     color: #0C0C0E;
     font-family: Forum;
     font-size: 40px;
@@ -158,6 +161,55 @@ hr {
     background: url(./assets/image\ 3.png), lightgray 50% / cover no-repeat;
     margin: 20px 20px 40px 10px;
 }
+
 .img-about {
     display: flex;
+}
+
+.points {
+    display: flex;
+    width: 68px;
+    height: 16px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.dots {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #0C0C0E;
+}
+
+.dots.one {
+    background-color: #BB945F;
+}
+
+.favorites {
+    width: 1440px;
+    height: 1439px;
+}
+
+.fav.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fav.midle {
+    display: inline-flex;
+
+}
+
+.fav.p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 234px;
+    height: 24px;
+    margin: 40px 1186px 37px 20px;
 }
