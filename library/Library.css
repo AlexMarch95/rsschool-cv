@@ -196,11 +196,6 @@ h2 {
     align-items: center;
 }
 
-.fav.midle {
-    display: inline-flex;
-
-}
-
 .fav.p {
     color: #000;
     text-align: center;
@@ -212,4 +207,38 @@ h2 {
     width: 234px;
     height: 24px;
     margin: 40px 1186px 37px 20px;
+}
+
+.fav.midle {
+    display: flex;
+    flex-direction: column;
+}
+
+.fav.but {
+    display: flex;
+    width: 700px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 60px;
+    
+}
+
+
+label {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.winterp {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
