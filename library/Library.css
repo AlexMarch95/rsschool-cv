@@ -261,7 +261,6 @@ label {
     flex-shrink: 0;
     border: 1px solid #000;
     background: #FFF;
-
 }
 
 .book.hr {
@@ -338,3 +337,34 @@ label {
     letter-spacing: 1px;
     padding: 9px 27px;
 }
+
+.names.two {
+    white-space: nowrap;
+}
+
+.book.description.two {
+    margin: 20px 175px 55px 20px;
+}
+
+.book.description.four {
+    margin-bottom: 95px;
+}
+
+.own {
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding: 9px 25px;
+    margin: 0 455px 15px 20px;
+}
+
