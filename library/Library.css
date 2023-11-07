@@ -185,7 +185,7 @@ h2 {
     background-color: #BB945F;
 }
 
-.favorites {
+.favor {
     width: 1440px;
     height: 1439px;
 }
@@ -245,8 +245,6 @@ label {
 
 .fav.bot {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     width: 1440px;
     height: 1439px;
     background: #FFF;
@@ -367,4 +365,15 @@ label {
     padding: 9px 25px;
     margin: 0 455px 15px 20px;
 }
-
+.levo {
+    margin: 40px 140px 40px 20px;
+}
+.pravo {
+    margin: 40px 60px 40px 140px;
+}
+.first {
+    margin-bottom: 40px;
+}
+.second {
+    margin-bottom: 40px;
+}
