@@ -124,6 +124,7 @@ h2 {
     line-height: 40px;
     letter-spacing: 2px;
     text-transform: capitalize;
+    margin: 20px;
 }
 
 .b1 {
@@ -185,6 +186,11 @@ h2 {
     background-color: #BB945F;
 }
 
+.favorites {
+    width: 1440px;
+    height: 1439px;
+}
+
 .favor {
     width: 1440px;
     height: 1439px;
@@ -224,6 +230,7 @@ h2 {
 }
 
 
+
 label {
     color: #000;
     font-family: Inter;
@@ -245,8 +252,9 @@ label {
 
 .fav.bot {
     display: flex;
-    width: 1440px;
-    height: 1439px;
+    width: 1400px;
+    height: 1150px;
+    flex-shrink: 0;
     background: #FFF;
 }
 
@@ -365,15 +373,73 @@ label {
     padding: 9px 25px;
     margin: 0 455px 15px 20px;
 }
+
 .levo {
     margin: 40px 140px 40px 20px;
 }
+
 .pravo {
     margin: 40px 60px 40px 140px;
 }
+
 .first {
     margin-bottom: 40px;
 }
+
 .second {
     margin-bottom: 40px;
+}
+
+.Coffee.shop {
+    display: flex;
+    height: 841px;
+    width: 1440px;
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background: #FFF;
+}
+
+.shop-h {
+    width: 220px;
+    height: 40px;
+    white-space: nowrap;
+    margin-top: 0;
+}
+.Y {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+.Yo {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.shop-p {
+    width: 1400px;
+    height: 120px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 0;
 }
