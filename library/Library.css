@@ -189,6 +189,7 @@ h2 {
 .favorites {
     width: 1440px;
     height: 1439px;
+    position: relative;
 }
 
 .favor {
@@ -407,6 +408,7 @@ label {
     white-space: nowrap;
     margin-top: 0;
 }
+
 .Y {
     color: #000;
     font-family: Inter;
@@ -442,4 +444,36 @@ label {
     letter-spacing: 2px;
     text-transform: capitalize;
     margin-top: 0;
+}
+
+.book1 {
+    position: absolute;
+    margin: 520px 830px 635px 410px;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.book2 {
+    position: absolute;
+    margin: 520px 20px 635px 1220px;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.book3 {
+    position: absolute;
+    margin: 1117px 830px 40px 410px;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.book4 {
+    position: absolute;
+    margin: 1117px 20px 40px 1220px;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
 }
