@@ -675,8 +675,7 @@ label {
 }
 
 .library.card {
-    display: flex;
-    justify-content: space-around;
+    display:flex;
 
 }
 
@@ -684,6 +683,7 @@ label {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    margin: 40px 344px 40px 20px;
 }
 
 .library-left-top {
@@ -696,6 +696,7 @@ label {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.6px;
+    margin-bottom:30px;
 }
 
 .library-left-bott {
@@ -790,4 +791,66 @@ label {
     line-height: normal;
     letter-spacing: 1px;
     white-space: nowrap;
+}
+
+.library-right {
+    width: 456px;
+    height: 253px;
+    flex-shrink: 0;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.library-right-t {
+    color: #000;
+    text-align:end;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin:0 0 35px 0;
+}
+
+.library-right-m {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    width: 456px;
+    margin: 0 0 35px 0;
+}
+
+.library-right-b {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+
+.library-right-but {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.library-right-bottom {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
 }
