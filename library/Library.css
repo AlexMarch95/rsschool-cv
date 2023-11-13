@@ -125,6 +125,7 @@ h2 {
     letter-spacing: 2px;
     text-transform: capitalize;
     margin: 20px;
+    margin-bottom: 12px;
 }
 
 .b1 {
@@ -137,6 +138,7 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
+    padding-top: 10px;
 }
 
 .images1-about {
@@ -144,7 +146,7 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 1.png), lightgray 50% / cover no-repeat;
-    margin: 20px 10px 40px 20px;
+    margin: 0px 10px 40px 20px;
 }
 
 .images2-about {
@@ -152,7 +154,7 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 2.png), lightgray 50% / cover no-repeat;
-    margin: 20px 15px 40px;
+    margin: 0px 15px 40px;
 }
 
 .images3-about {
@@ -160,7 +162,7 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 3.png), lightgray 50% / cover no-repeat;
-    margin: 20px 20px 40px 10px;
+    margin: 0px 20px 40px 10px;
 }
 
 .img-about {
@@ -213,7 +215,7 @@ h2 {
     line-height: normal;
     width: 234px;
     height: 24px;
-    margin: 40px 1186px 37px 20px;
+    margin: 30px 1186px 37px 20px;
 }
 
 .fav.midle {
@@ -332,7 +334,7 @@ label {
 }
 
 .names {
-    margin: 20px 362px 0 20px;
+    margin:17px 362px 0 20px;
 }
 
 .buy {
@@ -383,7 +385,7 @@ label {
 }
 
 .pravo {
-    margin: 40px 60px 40px 140px;
+    margin: 38px 60px 40px 118px;
 }
 
 .first {
@@ -392,18 +394,24 @@ label {
 }
 
 .second {
-    margin-bottom: 40px;
+    margin-bottom: 42px;
+}
+.shop-top {
+    margin-right: 39px;
 }
 
 .Coffee.shop {
     display: flex;
     height: 841px;
     width: 1440px;
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 0 20px;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 32px;
     background: #FFF;
+}
+.shop-m {
+    margin-right: 38px;
 }
 
 .shop-h {
@@ -411,6 +419,7 @@ label {
     height: 40px;
     white-space: nowrap;
     margin-top: 0;
+    margin-bottom: 17px;
 }
 
 .Y {
@@ -452,7 +461,7 @@ label {
 
 .book1 {
     position: absolute;
-    margin: 520px 830px 635px 410px;
+    margin: 503px 830px 635px 410px;
     width: 200px;
     height: 300px;
     flex-shrink: 0;
@@ -460,7 +469,7 @@ label {
 
 .book2 {
     position: absolute;
-    margin: 520px 20px 635px 1220px;
+    margin: 503px 20px 635px 1220px;
     width: 200px;
     height: 300px;
     flex-shrink: 0;
@@ -468,7 +477,7 @@ label {
 
 .book3 {
     position: absolute;
-    margin: 1117px 830px 40px 410px;
+    margin: 1096px 830px 40px 410px;
     width: 200px;
     height: 300px;
     flex-shrink: 0;
@@ -476,7 +485,7 @@ label {
 
 .book4 {
     position: absolute;
-    margin: 1117px 20px 40px 1220px;
+    margin: 1098px 20px 40px 1220px;
     width: 200px;
     height: 300px;
     flex-shrink: 0;
@@ -487,6 +496,8 @@ label {
     justify-content: space-between;
     width: 1400px;
     height: 520px;
+    margin-right: 40px;
+    margin-top: 7px;
 }
 
 .shop.left {
@@ -516,6 +527,8 @@ label {
     line-height: 40px;
     letter-spacing: 2px;
     text-transform: capitalize;
+    margin-right: 5px;
+
 }
 
 .menu.item {
@@ -575,12 +588,16 @@ label {
 .our.contacts {
     display: flex;
     width: 1440px;
-    padding: 20px 20px 40px 20px;
+    padding: 0 20px 40px 20px;
     flex-direction: column;
     align-items: center;
     gap: 40px;
     background: #FFF;
 }
+.this.is {
+    margin: -2px 37px 18px 0px
+}
+
 
 .contacts-info {
     display: flex;
