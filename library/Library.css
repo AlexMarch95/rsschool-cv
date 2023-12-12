@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    width: 1440px;
+  
     height: 90px;
 }
 
@@ -61,13 +61,12 @@ h1 {
     letter-spacing: 0.6px;
     width: 294px;
     height: 50px;
-    margin: 20px 454px 20px 20px;
+    margin: 20px 0 20px 20px;
 }
 
 .welcome {
     display: flex;
     background: url(./assets/Welcome.jpg), lightgray 50% / cover no-repeat;
-    width: 1440px;
     height: 600px;
     align-items: center;
 }
@@ -99,7 +98,7 @@ h1 {
 }
 
 .mein-about {
-    width: 1440px;
+    
     height: 837px;
     display: flex;
     flex-direction: column;
@@ -189,14 +188,15 @@ h2 {
 }
 
 .favorites {
-    width: 1440px;
+    
     height: 1439px;
     position: relative;
 }
 
 .favor {
-    width: 1440px;
+    
     height: 1439px;
+    
 }
 
 .fav.top {
