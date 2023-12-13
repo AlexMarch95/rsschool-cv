@@ -164,10 +164,6 @@ h2 {
     
 }
 
-.slider-line {
-    display: flex;
-    gap: 25px;
-}
 
 .points {
     display: flex;
@@ -185,10 +181,6 @@ h2 {
     height: 16px;
     background-color: #0C0C0E;
     
-}
-
-.dots.one {
-    background-color: #BB945F;
 }
 
 .favorites {
@@ -1045,4 +1037,20 @@ label {
 .hr.m.n {
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+/* creating slider */
+.slider-line {
+    height: 560px;
+    width: 1350px;
+    display: flex;
+    gap: 25px;
+    position: relative;
+    left: -490px;
+    transition: 1s;
+}
+
+.slider {
+    width: 450px;
+    height: 560px;
 }
