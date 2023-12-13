@@ -145,7 +145,7 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 1.png), lightgray 50% / cover no-repeat;
-    margin: 0px 10px 40px 20px;
+
 }
 
 .images2-about {
@@ -153,7 +153,7 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 2.png), lightgray 50% / cover no-repeat;
-    margin: 0px 15px 40px;
+   
 }
 
 .images3-about {
@@ -161,11 +161,12 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 3.png), lightgray 50% / cover no-repeat;
-    margin: 0px 20px 40px 10px;
+    
 }
 
-.img-about {
+.slider-line {
     display: flex;
+    gap: 25px;
 }
 
 .points {
@@ -174,6 +175,8 @@ h2 {
     height: 16px;
     justify-content: space-between;
     flex-shrink: 0;
+    border: none;
+    margin-top: 40px;
 }
 
 .dots {
@@ -181,6 +184,7 @@ h2 {
     width: 16px;
     height: 16px;
     background-color: #0C0C0E;
+    
 }
 
 .dots.one {
