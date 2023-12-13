@@ -179,7 +179,7 @@ h2 {
     border-radius: 50%;
     width: 16px;
     height: 16px;
-    background-color: #0C0C0E;
+    background: black;
     
 }
 
@@ -1046,11 +1046,16 @@ label {
     display: flex;
     gap: 25px;
     position: relative;
-    left: -490px;
+    left: -470px;
     transition: 1s;
 }
 
 .slider {
     width: 450px;
     height: 560px;
+}
+
+.dots:focus {
+    background: #BB945F;
+    border: none;
 }
