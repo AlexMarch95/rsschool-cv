@@ -167,6 +167,21 @@ h2 {
     background: url(./assets/image\ 3.png), lightgray 50% / cover no-repeat;
     
 }
+.images4-about {
+    width: 450px;
+    height: 560px;
+    flex-shrink: 0;
+    background: url(./assets/image\ 4.png), lightgray 50% / cover no-repeat;
+    
+}
+.images5-about {
+    width: 450px;
+    height: 560px;
+    flex-shrink: 0;
+    background: url(./assets/image\ 5.png), lightgray 50% / cover no-repeat;
+    
+}
+
 
 
 .points {
@@ -1046,7 +1061,7 @@ label {
 /* creating slider */
 .slider-line {
     height: 560px;
-    width: 1350px;
+    width: 2330px;
     display: flex;
     gap: 25px;
     position: relative;
