@@ -7,11 +7,11 @@ body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-  }
+}
 
 
 .header {
-  
+
     height: 90px;
 }
 
@@ -102,7 +102,7 @@ h1 {
 }
 
 .mein-about {
-    
+
     height: 837px;
     display: flex;
     flex-direction: column;
@@ -157,7 +157,7 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 2.png), lightgray 50% / cover no-repeat;
-   
+
 }
 
 .images3-about {
@@ -165,21 +165,23 @@ h2 {
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 3.png), lightgray 50% / cover no-repeat;
-    
+
 }
+
 .images4-about {
     width: 450px;
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 4.png), lightgray 50% / cover no-repeat;
-    
+
 }
+
 .images5-about {
     width: 450px;
     height: 560px;
     flex-shrink: 0;
     background: url(./assets/image\ 5.png), lightgray 50% / cover no-repeat;
-    
+
 }
 
 
@@ -199,19 +201,19 @@ h2 {
     width: 16px;
     height: 16px;
     background: black;
-    
+
 }
 
 .favorites {
-    
+
     height: 1439px;
     position: relative;
 }
 
 .favor {
-    
+
     height: 1439px;
-    
+
 }
 
 .fav.top {
@@ -238,13 +240,13 @@ h2 {
     flex-direction: column;
 }
 
-.fav.but input[type='radio'] + label:not(:last-child){
+.fav.but input[type='radio']+label:not(:last-child) {
     margin-right: 60px;
     margin-left: 20px;
-  }
+}
 
 .fav.but {
-    margin-left:20px ;
+    margin-left: 20px;
 }
 
 
@@ -255,8 +257,9 @@ label {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
+
 }
+
 .aut {
     margin-left: 20px;
 }
@@ -268,7 +271,7 @@ label {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
+
 }
 
 .fav.bot {
@@ -349,7 +352,7 @@ label {
 }
 
 .names {
-    margin:17px 362px 0 20px;
+    margin: 17px 362px 0 20px;
 }
 
 .buy {
@@ -411,6 +414,7 @@ label {
 .second {
     margin-bottom: 42px;
 }
+
 .shop-top {
     margin-right: 39px;
 }
@@ -425,6 +429,7 @@ label {
     gap: 32px;
     background: #FFF;
 }
+
 .shop-m {
     margin-right: 38px;
 }
@@ -609,6 +614,7 @@ label {
     gap: 30px;
     background: #FFF;
 }
+
 .this.is {
     margin: -2px 0 18px 0px;
 }
@@ -893,7 +899,7 @@ label {
 
 .footer {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 1440px;
     height: 250px;
     background: #0C0C0E;
@@ -957,7 +963,7 @@ label {
     justify-content: center;
     align-items: center;
     gap: 1147px;
-    
+
 }
 
 .footer-tbr {
@@ -1049,13 +1055,19 @@ label {
     line-height: 40px;
     letter-spacing: 2px;
 }
+
 .h23 {
     margin-top: 30px;
     margin-bottom: 12px;
 }
+
 .hr.m.n {
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.arrow {
+    display: none;
 }
 
 /* creating slider */
@@ -1073,16 +1085,55 @@ label {
 .slider {
     width: 450px;
     height: 560px;
-    
 
+
+}
+
+.dots.s {
+    display: none;
 }
 
 .dots:focus {
     background: #BB945F;
     border: none;
 }
+
+/* media */
 @media (max-width :1024px) {
     .slider {
         overflow: hidden;
     }
+
+    .dots.s {
+        display: block;
+    }
+
+    .points {
+        width: 120px;
+    }
+
+    .arrow {
+        display: flex;
+    }
+
+    .arrow.One {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url(./assets/arrowOne.svg);
+        border: none;
+        background-color: white;
+        margin: 288px 57px 326px -101px;
+    }
+
+    .arrow.Two {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url(./assets/arrowTwo.svg);
+        border: none;
+        background-color: white;
+        margin: 288px 77px 309px 489px;
+    }
+
 }
