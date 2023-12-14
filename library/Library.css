@@ -3,8 +3,12 @@ html {
 }
 
 body {
-    margin: 0;
-}
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
 
 .header {
   
@@ -1048,14 +1052,22 @@ label {
     position: relative;
     left: -470px;
     transition: 1s;
+    overflow: hidden;
 }
 
 .slider {
     width: 450px;
     height: 560px;
+    
+
 }
 
 .dots:focus {
     background: #BB945F;
     border: none;
+}
+@media (max-width :1024px) {
+    .slider {
+        overflow: hidden;
+    }
 }
