@@ -1140,13 +1140,18 @@ label {
 }
 
 /* register */
+.modal {
+    display: none;
+}
 .modal-box {
+    position: relative;
     width: 250px;
     height: 382px;
 }
 
 .register {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     color: #000;
     text-align: center;
     font-family: Forum;
@@ -1163,12 +1168,13 @@ label {
     width: 200px;
     height: 280px;
     flex-shrink: 0;
+    margin: 0 25px 10px;
 }
 
 .text-form {
     color: #000;
     text-align: start;
-    padding: 10px 0px;
+    padding: 5px 0px;
     margin: 0;
     font-family: Inter;
     font-size: 15px;
@@ -1178,17 +1184,59 @@ label {
     /* 133.333% */
     letter-spacing: 0.3px;
 }
+
 #closeBtn {
-    border: none;
+    left: 212px;
     background-color: transparent;
+    top: 11px;
+    position: absolute;
+    border: none;
+
 }
 
 .inpTex {
     border: 1px solid #BB945F;
-    width: 200px;
-    height: 20px;
+    width: 195px;
+    height: 16px;
     flex-shrink: 0;
+    margin: 5px 0 5px ;
 }
+
+.signUp {
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    position: relative;
+    top: 15px;
+}
+
+.textBot {
+    color: #000;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 25px;
+}
+
+.textLeft {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    position: relative;
+    left: 31px;
+}
+
+
 
 /* media */
 @media (max-width :1024px) {
