@@ -37,12 +37,13 @@ body {
     padding: 0;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: flex-start;
+
 }
 
 .icon {
     color: white;
     margin: 31px 20px 31px 40px;
+    z-index: 1;
 }
 
 a {
@@ -1098,6 +1099,15 @@ label {
     border: none;
 }
 
+.burger-btn {
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
 /* media */
 @media (max-width :1024px) {
     .slider {
@@ -1123,7 +1133,7 @@ label {
         background-image: url(./assets/arrowOne.svg);
         border: none;
         background-color: white;
-        margin: 288px 57px 326px -101px;
+        margin: 239px 57px 326px -67px;
     }
 
     .arrow.Two {
@@ -1133,7 +1143,95 @@ label {
         background-image: url(./assets/arrowTwo.svg);
         border: none;
         background-color: white;
-        margin: 288px 77px 309px 489px;
+        margin: 236px 75px 313px 503px;
     }
 
+    .slider-line {
+        left: 0;
+    }
+
+    /* burger */
+    .nav {
+        position: absolute;
+        right: -332px;
+        top: 0;
+        width: 332px;
+        height: 570px;
+        background-color: black;
+        transition: transform .5s, visibility .5s;
+
+    }
+
+    .nav-list {
+        display: block;
+        padding: 155px 20px 20px 115px;
+    }
+
+    .burger-btn {
+        display: block;
+        background-color: transparent;
+        z-index: 1;
+    }
+
+    .burger-btn span {
+        position: absolute;
+        height: 2px;
+        width: 45px;
+        background-color: white;
+        display: block;
+        left: 5px;
+        transition: backgroung-color .5s, opacity .25s, transform .3s;
+        will-change: transform;
+
+        ;
+
+    }
+
+    .burger-btn span:nth-child(1) {
+
+        transform: translateY(-10px);
+    }
+
+    .burger-btn span:nth-child(2) {}
+
+    .burger-btn span:nth-child(3) {
+
+        transform: translateY(10px);
+    }
+
+    /* крестик */
+    .header.open .burger-btn span:nth-child(1) {
+
+        transform: translateY(0) rotate(45deg);
+    }
+
+    .header.open .burger-btn span:nth-child(2) {
+
+        opacity: 0;
+    }
+
+    .header.open .burger-btn span:nth-child(3) {
+
+        transform: translateY(0) rotate(-45deg);
+    }
+
+    .header.open .nav {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+
+    .right1 {
+        flex-direction: row-reverse;
+        margin-right: 100px;
+    }
+
+    .icon {
+        margin: 31px 36px 26px 50px
+    }
+.nav-item {
+    padding-bottom: 20px;
 }
+    /* burger */
+}
+
+/* media */
