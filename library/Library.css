@@ -1141,12 +1141,40 @@ label {
 
 /* register */
 .modal {
-    display: none;
+    position: fixed;
+    z-index: 9998;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .3s, opacity .3s;
 }
+
+.modal.open {
+    visibility: visible;
+    opacity: 1;
+}
+
 .modal-box {
-    position: relative;
     width: 250px;
     height: 382px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #BB945F;
+    transform: scale(0);
+    transition: transform .6s;
+
+}
+
+.modal.open .modal-box {
+    transform: scale(1);
 }
 
 .register {
@@ -1188,7 +1216,8 @@ label {
 #closeBtn {
     left: 212px;
     background-color: transparent;
-    top: 11px;
+    top: 10px;
+    right: 5px;
     position: absolute;
     border: none;
 
@@ -1199,7 +1228,7 @@ label {
     width: 195px;
     height: 16px;
     flex-shrink: 0;
-    margin: 5px 0 5px ;
+    margin: 5px 0 5px;
 }
 
 .signUp {

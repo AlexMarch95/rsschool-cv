@@ -59,3 +59,12 @@ document.getElementById('autumn').onclick = function () {
     myLogo4.classList.toggle('fade')
 }
 // fadeIn fadeOut
+
+// PopUp
+document.getElementById('openBtn').addEventListener('click' , function() {
+    document.getElementById('myModal').classList.add('open')
+})
+document.getElementById('closeBtn').addEventListener('click', function(){
+    document.getElementById('myModal').classList.remove('open')
+})
+// PopUp
