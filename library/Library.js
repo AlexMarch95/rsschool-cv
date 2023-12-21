@@ -2,29 +2,29 @@
 let offset = 0;
 const sliderLine = document.querySelector('.slider-line');
 
-document.querySelector('.dots.one').addEventListener('click' , function () {
+document.querySelector('.dots.one').addEventListener('click', function () {
     offset = 470;
-    
-    sliderLine.style.left = -offset +'px';
-})                
+
+    sliderLine.style.left = -offset + 'px';
+})
 document.querySelector('.dots.two').addEventListener('click', function () {
     offset = 950;
-    
+
     sliderLine.style.left = -offset + 'px'
-} )             
+})
 document.querySelector('.dots.three').addEventListener('click', function () {
     offset = 1430
-   
+
     sliderLine.style.left = -offset + 'px';
-})      
-document.querySelector('.arrow.One').addEventListener('click' , function () {
+})
+document.querySelector('.arrow.One').addEventListener('click', function () {
     offset = offset + 470;
     if (offset > 0) {
         offset = -1900
     }
     sliderLine.style.left = offset + 'px'
 })
-document.querySelector('.arrow.Two').addEventListener('click' , function () {
+document.querySelector('.arrow.Two').addEventListener('click', function () {
     offset = offset - 470;
     if (offset < -1901) {
         offset = 0
@@ -32,12 +32,21 @@ document.querySelector('.arrow.Two').addEventListener('click' , function () {
     sliderLine.style.left = offset + 'px'
 })
 // working slider end
-
+document.querySelector('.Register').addEventListener('click' , function(){
+    document.getElementById('myModal').classList.add('open')
+})
+// profile
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById('openPr').addEventListener('click', function () {
+        document.querySelector('.profil-auto1').classList.toggle('closed')
+    })
+})
+// profile
 // burger start
-document.addEventListener ("DOMContentLoaded" , function () {
-   document.getElementById('burger').addEventListener('click', function () {
-    document.querySelector('.header').classList.toggle('open')
-   })
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById('burger').addEventListener('click', function () {
+        document.querySelector('.header').classList.toggle('open')
+    })
 })
 // burger end
 
@@ -61,10 +70,13 @@ document.getElementById('autumn').onclick = function () {
 // fadeIn fadeOut
 
 // PopUp
-document.getElementById('openBtn').addEventListener('click' , function() {
+document.getElementById('openBtn').addEventListener('click', function () {
     document.getElementById('myModal').classList.add('open')
 })
-document.getElementById('closeBtn').addEventListener('click', function(){
+document.getElementById('closeBtn').addEventListener('click', function () {
     document.getElementById('myModal').classList.remove('open')
+})
+document.getElementById('openBtn1').addEventListener('click', function () {
+    document.getElementById('myModal').classList.add('open')
 })
 // PopUp

@@ -31,12 +31,20 @@
                         <li class="nav-item"><a href="#Library">Library Card</a></li>
                     </ul>
                 </nav>
-                <div class="icon"><img src="./assets/icon_profile.svg" alt="icon">
+                <div class="icon"><button class="profilIc" id="openPr"><img src="./assets/icon_profile.svg" alt="icon"></button>
                 </div>
             </div>
         </div>
     </header>
     <main>
+        <div class="profil-auto1">
+            <div class="profil-auto">
+            <p class="profilH">Profile</p>
+            <hr class="profilHR">
+            <button class="LogIn">Log In</button>
+            <button class="Register">Register</button>
+            </div>
+        </div>
         <section class="welcome">
             <div class="p-welcome">
                 <p class="pp-welcome"> WELCOME <br>TO THE BROOKLYN LIBRARY</p>
@@ -309,6 +317,7 @@
                             <path d="M2 2.14926L17 17" stroke="#0C0C0E" stroke-width="3" />
                         </svg></button>
                     <div class="textTwo">
+                        <form action="/search">
                         <p class="text-form">First name</p>
                         <input type="text" class="inpTex">
                         <p class="text-form">Last name</p>
@@ -318,6 +327,7 @@
                         <p class="text-form">Password</p>
                         <input type="text" class="inpTex">
                         <button class="signUp">Sign Up</button>
+                        </form>
                     </div>
                     <text class="textBot">Already have an account?</text>
                     <a href="" class="textLeft">Login</a>
@@ -354,7 +364,7 @@
                         <button class="library-right-b" id="openBtn">
                             <span class="library-right-but">Register</span>
                         </button>
-                        <button class="library-right-b">
+                        <button class="library-right-b" id="openBtn1">
                             <span class="library-right-but">Log in</span>
                         </button>
                     </div>
