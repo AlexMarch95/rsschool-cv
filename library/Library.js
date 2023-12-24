@@ -41,6 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.profil-auto1').classList.toggle('closed')
     })
 })
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById('openPr1').addEventListener('click', function () {
+        document.querySelector('.profil-auto1').classList.toggle('closed')
+    })
+})
 // profile
 // burger start
 document.addEventListener("DOMContentLoaded", function () {
@@ -80,3 +85,47 @@ document.getElementById('openBtn1').addEventListener('click', function () {
     document.getElementById('myModal').classList.add('open')
 })
 // PopUp
+
+//Input Registration 
+ let name = document.getElementById('firstName');
+ let last = document.getElementById('lastName');
+ let mail = document.getElementById('mail');
+ let password = document.getElementById('password');
+ let btn = document.getElementById('signUp');
+
+ let users = {};
+
+function User (name,last,mail,password) {
+   this.name = name;
+   this.last = last;
+   this.mail = mail;
+   this.password = password;
+}
+
+function createId (users) {
+return Object.keys(users).length
+}
+
+btn.addEventListener('click' , function () {
+    const nameUser = name.value;
+    const lastUser = last.value;
+    const mailUser = mail.value;
+    const passwordUser = password.value;
+
+    const user = new User (nameUser,lastUser,mailUser,passwordUser);
+    const userId = 'User' + createId (users);
+    users[userId] = user;
+    console.log(users);
+    alert(`${nameUser} , вы успешно прошли регистрацию`);
+    document.getElementById('myModal').classList.remove('open')
+    document.querySelector('.profil-auto1').classList.remove('closed')
+    document.querySelector('.profilIc').classList.add('open')
+    document.querySelector('.iconClose').classList.add('close')
+    document.querySelector('.icon').classList.add('open')
+    document.querySelector('.icon2').classList.add('open')
+    document.querySelector('.LogIn').classList.add('close')
+    document.querySelector('.Register').classList.add('close')
+    document.querySelector('.LogIn.open').classList.add('one')
+    document.querySelector('.Register.open').classList.add('one')
+})
+//Input Registration 

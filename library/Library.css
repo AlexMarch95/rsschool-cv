@@ -29,7 +29,7 @@ body {
 }
 
 .nav-list {
-    margin: 0;
+    margin: -10px;
     list-style-type: none;
     width: 584px;
     height: 50px;
@@ -1189,13 +1189,15 @@ label {
     line-height: 20px;
     letter-spacing: 0.4px;
     text-transform: uppercase;
-    
+
 }
+
 .Register:hover {
     transition: all .7s;
     text-decoration: underline black;
     cursor: pointer;
 }
+
 .LogIn:hover {
     transition: all .7s;
     text-decoration: underline black;
@@ -1282,8 +1284,9 @@ label {
     border: none;
     cursor: pointer;
 }
-.profil-auto1 {
-}
+
+.profil-auto1 {}
+
 .profil-auto {
     position: absolute;
     text-align: center;
@@ -1294,12 +1297,13 @@ label {
     right: 20px;
     top: -180px;
     background-color: white;
-    transition: transform .5s , visibility .5s;
+    transition: transform .5s, visibility .5s;
 }
-.profil-auto1.closed .profil-auto{
+
+.profil-auto1.closed .profil-auto {
     transform: translateY(+245px);
     visibility: visible;
-  
+
 }
 
 .profilH {
@@ -1318,27 +1322,88 @@ label {
     background: #BB945F;
     margin: 4px 20px 12px;
 }
+
 .LogIn {
     color: #000;
-text-align: center;
-font-family: Inter;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-background: #FFF;
-border: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    background: #FFF;
+    border: none;
 }
+.LogIn.close {
+    display: none;
+}
+.Register.close {
+    display: none;
+}
+
+.LogIn.open {
+    display: none;
+}
+.LogIn.open.one {
+    display: block;
+    text-align: center;
+    padding: 0 4px 0
+
+}
+
+.Register.open {
+    display: none;
+}
+.Register.open.one {
+    display: block;
+padding: 10px 7px 7px;
+}
+
 .Register {
-color: #000;
-font-family: Inter;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-background: #FFF;
-border: none;
-padding-top: 10px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    background: #FFF;
+    border: none;
+    padding-top: 10px;
+}
+
+.iconClose.close {
+    display: block;
+    border: none;
+}
+
+.iconClose {
+    display: none;
+    background-color: white;
+    border-radius: 25px;
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #BB945F;
+}
+
+.profilIc.open {
+    display: none;
+}
+
+.icon2 {
+    display: none;
+    margin-left: 36px;
+    margin-right: 16px;
+
+}
+
+.icon2.open {
+    z-index: 1;
+    display: block;
+}
+
+.icon.open {
+    display: none;
 }
 
 /* media */
@@ -1346,7 +1411,7 @@ padding-top: 10px;
     .profil-auto {
         right: 120px;
         top: -180px;
-     }
+    }
 
     .slider {
         overflow: hidden;

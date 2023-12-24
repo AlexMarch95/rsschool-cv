@@ -31,6 +31,7 @@
                         <li class="nav-item"><a href="#Library">Library Card</a></li>
                     </ul>
                 </nav>
+                <div class="icon2"><button class="iconClose" id="openPr1">AM</button></div>
                 <div class="icon"><button class="profilIc" id="openPr"><img src="./assets/icon_profile.svg" alt="icon"></button>
                 </div>
             </div>
@@ -42,9 +43,12 @@
             <p class="profilH">Profile</p>
             <hr class="profilHR">
             <button class="LogIn">Log In</button>
+            <button class="LogIn open">My profile</button>
             <button class="Register">Register</button>
+            <button class="Register open">Log Out</button>
             </div>
         </div>
+    
         <section class="welcome">
             <div class="p-welcome">
                 <p class="pp-welcome"> WELCOME <br>TO THE BROOKLYN LIBRARY</p>
@@ -317,17 +321,17 @@
                             <path d="M2 2.14926L17 17" stroke="#0C0C0E" stroke-width="3" />
                         </svg></button>
                     <div class="textTwo">
-                        <form action="/search">
+                        
                         <p class="text-form">First name</p>
-                        <input type="text" class="inpTex">
+                        <input type="text" class="inpTex" id="firstName">
                         <p class="text-form">Last name</p>
-                        <input type="text" class="inpTex">
+                        <input type="text" class="inpTex" id="lastName">
                         <p class="text-form">E-mail</p>
-                        <input type="text" class="inpTex">
+                        <input type="email" class="inpTex" id="mail">
                         <p class="text-form">Password</p>
-                        <input type="text" class="inpTex">
-                        <button class="signUp">Sign Up</button>
-                        </form>
+                        <input type="password" class="inpTex" id="password">
+                        <button class="signUp" id="signUp">Sign Up</button>
+                        
                     </div>
                     <text class="textBot">Already have an account?</text>
                     <a href="" class="textLeft">Login</a>
