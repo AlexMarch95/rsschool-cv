@@ -86,6 +86,7 @@ document.getElementById('openBtn1').addEventListener('click', function () {
 })
 // PopUp
 
+
 //Input Registration 
  let name = document.getElementById('firstName');
  let last = document.getElementById('lastName');
@@ -119,7 +120,7 @@ btn.addEventListener('click' , function () {
     alert(`${nameUser} , вы успешно прошли регистрацию`);
     document.getElementById('myModal').classList.remove('open')
     document.querySelector('.profil-auto1').classList.remove('closed')
-    document.querySelector('.profilIc').classList.add('open')
+    
     document.querySelector('.iconClose').classList.add('close')
     document.querySelector('.icon').classList.add('open')
     document.querySelector('.icon2').classList.add('open')
@@ -127,5 +128,14 @@ btn.addEventListener('click' , function () {
     document.querySelector('.Register').classList.add('close')
     document.querySelector('.LogIn.open').classList.add('one')
     document.querySelector('.Register.open').classList.add('one')
+    localStorage.setItem(userId , JSON.stringify(user));
 })
 //Input Registration 
+document.getElementById('logOut').addEventListener('click', function (){
+    document.querySelector('.icon').classList.remove('open')
+    document.querySelector('.icon2').classList.remove('open')
+    document.querySelector('.LogIn.open').classList.remove('one')
+    document.querySelector('.Register.open').classList.remove('one')
+    document.querySelector('.LogIn').classList.remove('close')
+    document.querySelector('.Register').classList.remove('close')
+})
